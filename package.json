@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Friies/json_the_cat#readme",
   "dependencies": {
+    "eslint": "^8.37.0",
     "request": "^2.88.2"
   }
 }
