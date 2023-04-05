@@ -2,7 +2,7 @@ const request = require('request');
 
 const fetchBreedDescription = function(breed, cb) {
  
-  const url = `https://api.thecatapi.com/v1/breeds/search/?q=${breed}`
+  const url = `https://api.thecatapi.com/v1/breeds/search/?q=${breed}`;
   request(url, (error, response, body) => {
     if (error) {
       cb(error, null);
